@@ -1,6 +1,7 @@
 import React from "react";
 import Skills from "../skills/SkillsAnimation";
-
+import me from "../../../src/assets/img/about/aboutME.png"
+import svg1 from "../../assets/img/svg/1.svg";
 const AboutAnimation = () => {
   return (
     <>
@@ -8,15 +9,21 @@ const AboutAnimation = () => {
         <div className="left">
           <img src="img/thumbs/1-1.jpg" alt="thumb" />
           <div
-            className="image"
-            data-aos="fade-right"
-            data-aos-duration="1200"
-            style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/about/aboutME.png"
-              })`,
-            }}
-          ></div>
+    className="image"
+    data-aos="fade-right"
+    data-aos-duration="1200"
+    style={{
+      // backgroundImage: `url(${
+      //     process.env.PUBLIC_URL + "img/about/aboutME.png"
+      // })`,
+// height: '100%',
+//      backgroundColor: 'pink'
+    }}
+    ></div>
+
+          <img className="svg" src={me} alt="" />
+
+
         </div>
         <div
           className="right"
