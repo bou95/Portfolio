@@ -60,29 +60,29 @@ const SliderAnimation = () => {
               {/*passionate about building excellent software that improves the*/}
               {/*lives of those around me.*/}
             </p>
-            <div
-              className="mobile_social"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="150"
-            >
-              <Social />
-            </div>
+            {/*<div*/}
+            {/*  className="mobile_social"*/}
+            {/*  data-aos="fade-up"*/}
+            {/*  data-aos-duration="1200"*/}
+            {/*  data-aos-delay="150"*/}
+            {/*>*/}
+            {/*  <Social />*/}
+            {/*</div>*/}
             {/* End .social */}
 
-            <div
-              className="beny_tm_button"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="200"
-            >
-              <a className="anchor" href="#about">
-                <span className="wrapper">
-                  <span className="first">See Portfolio</span>
-                  <span className="second">See Portfolio</span>
-                </span>
-              </a>
-            </div>
+            {/*<div*/}
+            {/*  className="beny_tm_button"*/}
+            {/*  data-aos="fade-up"*/}
+            {/*  data-aos-duration="1200"*/}
+            {/*  data-aos-delay="200"*/}
+            {/*>*/}
+            {/*  <a className="anchor" href="#about">*/}
+            {/*    <span className="wrapper">*/}
+            {/*      <span className="first">See Portfolio</span>*/}
+            {/*      <span className="second">See Portfolio</span>*/}
+            {/*    </span>*/}
+            {/*  </a>*/}
+            {/*</div>*/}
             {/* End beny_tm_button */}
           </div>
         </div>
