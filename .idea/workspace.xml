@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6de147d5-1046-48e3-9ecf-eee443e784a1" name="Default Changelist" comment="" />
+    <list default="true" id="6de147d5-1046-48e3-9ecf-eee443e784a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ac6057bb59b57bfcf0990f223b5257d4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/18/80/df2dd66e63ee98f6d32053b89464cddbaca1cdd27475bb27a26a0d4fe4d44d8fdc04c57fed16655430d9c30f37cef1f9ca11021e03681f563b659b9b87f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/df/66/a5c81e4377249b8df47f1eb495b7dc06cbf68179aca3c3969c80a69364f598524d576e04e1f7ef7099581695f89b2e2646682b2ce22380c2aa4320a327be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/55/bc/8ac4ca58a07b821806546a7faa9750540ec170944790f1112e9fb5382967" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/93/ae/7aca8826c022f43a015e98591e452b3502aa600f62dd4b24afdb04e414d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
