@@ -70,20 +70,20 @@ const SliderAnimation = () => {
             {/*</div>*/}
             {/* End .social */}
 
-            {/*<div*/}
-            {/*  className="beny_tm_button"*/}
-            {/*  data-aos="fade-up"*/}
-            {/*  data-aos-duration="1200"*/}
-            {/*  data-aos-delay="200"*/}
-            {/*>*/}
-            {/*  <a className="anchor" href="#about">*/}
-            {/*    <span className="wrapper">*/}
-            {/*      <span className="first">See Portfolio</span>*/}
-            {/*      <span className="second">See Portfolio</span>*/}
-            {/*    </span>*/}
-            {/*  </a>*/}
-            {/*</div>*/}
-            {/* End beny_tm_button */}
+            <div
+              className="beny_tm_button"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <a className="anchor" href="https://drive.google.com/file/d/1nuUW6l68A2KV1p-I_1jxwPY54KwkKvKG/view?usp=sharing">
+                <span className="wrapper">
+                  <span className="first">Download CV</span>
+                  <span className="second">Download CV</span>
+                </span>
+              </a>
+            </div>
+             {/*End beny_tm_button*/}
           </div>
         </div>
       </div>
