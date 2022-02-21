@@ -110,39 +110,39 @@ const Header = () => {
           <li>
             <a href="#home">
               <FiHome />
-              <span>Home</span>
+              <span>Homepage</span>
             </a>
           </li>
           <li>
             <a href="#about">
               <FiUser />
-              <span>About</span>
+              <span>About me</span>
             </a>
           </li>
           <li>
             <a href="#service">
               <FiSettings />
-              <span>Serivce</span>
+              <span>My serivces</span>
             </a>
           </li>
-          <li>
-            <a href="#portfolio">
-              <FiGrid />
-              <span>Portfolio</span>
-            </a>
-          </li>
-          <li>
-            <a href="#news">
-              <FiCast />
-              <span>News</span>
-            </a>
-          </li>
-          <li>
-            <a href="#contact">
-              <FiPhoneOutgoing />
-              <span>Contact</span>
-            </a>
-          </li>
+          {/*<li>*/}
+          {/*  <a href="#portfolio">*/}
+          {/*    <FiGrid />*/}
+          {/*    <span>Portfolio</span>*/}
+          {/*  </a>*/}
+          {/*</li>*/}
+          {/*<li>*/}
+          {/*  <a href="#news">*/}
+          {/*    <FiCast />*/}
+          {/*    <span>News</span>*/}
+          {/*  </a>*/}
+          {/*</li>*/}
+          {/*<li>*/}
+          {/*  <a href="#contact">*/}
+          {/*    <FiPhoneOutgoing />*/}
+          {/*    <span>Contact</span>*/}
+          {/*  </a>*/}
+          {/*</li>*/}
         </Scrollspy>
       </div>
       {/* End mobile-menu */}
