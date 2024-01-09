@@ -103,9 +103,30 @@ const Skills = () => {
         </div>
         <Tabs>
           <TabList className="tab_list">
-            <Tab> Education & Skills</Tab>
             <Tab>Experience</Tab>
+            <Tab>Education & Skills</Tab>
           </TabList>
+
+
+          <TabPanel>
+            <div className="row">
+              {experienceContent.map((val, i) => (
+                  <div className="col-6" key={i}>
+                    <div className="resume-box-01">
+                      <h5>{val.designation}</h5>
+                      <h6>{val.jobType}</h6>
+                      <span>{val.year}</span>
+                      <div className="hr"></div>
+                      <h4>
+                        <label>{val.compnayName}</label>
+                      </h4>
+                      <p>{val.descriptions}</p>
+                    </div>
+                  </div>
+                  //  End .col
+              ))}
+            </div>
+          </TabPanel>
           <TabPanel>
             <div className="resume_inner">
               <div className="row">
@@ -181,25 +202,7 @@ const Skills = () => {
             </div>
           </TabPanel>
 
-          <TabPanel>
-            <div className="row">
-              {experienceContent.map((val, i) => (
-                <div className="col-6" key={i}>
-                  <div className="resume-box-01">
-                    <h5>{val.designation}</h5>
-                    <h6>{val.jobType}</h6>
-                    <span>{val.year}</span>
-                    <div className="hr"></div>
-                    <h4>
-                      <label>{val.compnayName}</label>
-                    </h4>
-                    <p>{val.descriptions}</p>
-                  </div>
-                </div>
-                //  End .col
-              ))}
-            </div>
-          </TabPanel>
+
         </Tabs>
       </div>
     </>

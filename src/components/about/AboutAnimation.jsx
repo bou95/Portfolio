@@ -32,7 +32,7 @@ const AboutAnimation = () => {
           <div className="short">
             <h3>I'm Bouthaina Benkablia</h3>
             <h5>
-              A creative <span className="theme-color"> Software Engineer </span>
+              A creative <span className="theme-color"> UX Director </span>
               based in <span className="theme-color">Qatar</span>
             </h5>
             <p>
@@ -58,7 +58,7 @@ const AboutAnimation = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Age :</span> 26 Years
+                    <span>Age :</span> 28 Years
                   </p>
                 </li>
                 <li>

@@ -41,8 +41,16 @@ const skillsContent = [
     skillPercent: "75",
   },
   {
-    name: "UI/UX Design",
-    skillPercent: "90",
+    name: "UI Design / UX Research",
+    skillPercent: "100",
+  },
+  {
+    name: "Prototyping / Wireframing",
+    skillPercent: "100",
+  },
+  {
+    name: "User flow",
+    skillPercent: "100",
   },
   {
     name: "Unity 3D",
@@ -78,12 +86,21 @@ const awardContent = [
 ];
 const experienceContent = [
   {
-    designation: "Software Engineer",
+    designation: "UX Director",
     jobType: "Full Time | Flexible",
-    year: "2020 - Present",
+    year: "2021 - Now",
     compnayName: "Ogoul Technology",
     descriptions:
-      "I design and develop services of all sizes, specializing in creating stylish, modern websites and mobile apps.",
+        "Promoted to lead the UX Department towards improving the user experience, the feel and the look of all the products under the company. I was handling many products simultaneously from usability testing to planning and designing and reviewing all the work done by the UX Designers. As a management member, I worked with all the departments that helped me improve the quality of my teams work. My Engineering background allowed me to help the developers turn the designs into real screens.",
+    animationDealy: "",
+  },
+  {
+    designation: "Software Engineer",
+    jobType: "Full Time | Flexible",
+    year: "2020 - 2021",
+    compnayName: "Ogoul Technology",
+    descriptions:
+      "I design and develop services of all sizes, specializing in creating stylish, modern websites and mobile apps. Angular, React JS, React native, Flutter",
     animationDealy: "",
   },
   {
@@ -133,9 +150,34 @@ const SkillsAnimation = () => {
         </div>
         <Tabs>
           <TabList className="tab_list">
-            <Tab> Education & Skills</Tab>
             <Tab>Experience</Tab>
+            <Tab>Education & Skills</Tab>
           </TabList>
+          <TabPanel>
+            <div className="row">
+              {experienceContent.map((val, i) => (
+                  <div
+                      className="col-6"
+                      key={i}
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay={val.animationDealy}
+                  >
+                    <div className="resume-box-01">
+                      <h5>{val.designation}</h5>
+                      <h6>{val.jobType}</h6>
+                      <span>{val.year}</span>
+                      <div className="hr"></div>
+                      <h4>
+                        <label>{val.compnayName}</label>
+                      </h4>
+                      <p>{val.descriptions}</p>
+                    </div>
+                  </div>
+                  //  End .col
+              ))}
+            </div>
+          </TabPanel>
           <TabPanel>
             <div className="resume_inner">
               <div className="row">
@@ -222,32 +264,6 @@ const SkillsAnimation = () => {
                 </div>
                 {/* End .col-4 */}
               </div>
-            </div>
-          </TabPanel>
-
-          <TabPanel>
-            <div className="row">
-              {experienceContent.map((val, i) => (
-                <div
-                  className="col-6"
-                  key={i}
-                  data-aos="fade-right"
-                  data-aos-duration="1200"
-                  data-aos-delay={val.animationDealy}
-                >
-                  <div className="resume-box-01">
-                    <h5>{val.designation}</h5>
-                    <h6>{val.jobType}</h6>
-                    <span>{val.year}</span>
-                    <div className="hr"></div>
-                    <h4>
-                      <label>{val.compnayName}</label>
-                    </h4>
-                    <p>{val.descriptions}</p>
-                  </div>
-                </div>
-                //  End .col
-              ))}
             </div>
           </TabPanel>
         </Tabs>
