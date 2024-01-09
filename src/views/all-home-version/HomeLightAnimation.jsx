@@ -6,6 +6,8 @@ import Service from "../../components/service/ServiceAnimation";
 import Footer from "../../components/footer/Footer";
 
 import {Link, Route, Routes} from 'react-router-dom';
+import Address from "../../components/Address";
+import Contact from "../../components/Contact";
 
 const HomeLightAnimation = () => {
     document.body.classList.add("light");
@@ -124,56 +126,65 @@ const HomeLightAnimation = () => {
             {/*</div>*/}
             {/* /NEWS */}
 
-            {/*  CONTACT */}
-            {/*<div className="beny_tm_contact" id="contact">*/}
-            {/*  <div className="container">*/}
-            {/*    <div className="contact_inner">*/}
-            {/*      <div*/}
-            {/*        className="left"*/}
-            {/*        data-aos="fade-right"*/}
-            {/*        data-aos-duration="1200"*/}
-            {/*      >*/}
-            {/*        <div className="beny_tm_title_holder">*/}
-            {/*          <span>Contact</span>*/}
-            {/*          <h2>Let's discuss your project</h2>*/}
-            {/*        </div>*/}
-            {/*        <div className="short_list">*/}
-            {/*          <Address />*/}
-            {/*        </div>*/}
-            {/*      </div>*/}
-            {/*      /!* End .left *!/*/}
 
-            {/*      <div*/}
-            {/*        className="right"*/}
-            {/*        data-aos="fade-right"*/}
-            {/*        data-aos-duration="1200"*/}
-            {/*        data-aos-delay="150"*/}
-            {/*      >*/}
-            {/*        <div className="title">*/}
-            {/*          <p>*/}
-            {/*            I'm always open to discussing product*/}
-            {/*            <br />*/}
-            {/*            <span>design work or partnerships.</span>*/}
-            {/*          </p>*/}
-            {/*        </div>*/}
-            {/*        <div className="fields">*/}
-            {/*          <Contact />*/}
-            {/*        </div>*/}
-            {/*      </div>*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
-            {/* /CONTACT */}
-            {/*<div>*/}
-            {/*    <Link to="Portfolio/Wedding-video-1">*/}
-            {/*        <button>Video 1</button>*/}
-            {/*    </Link>*/}
-            {/*</div>*/}
-            {/*<div>*/}
-            {/*    <Link to="Portfolio/Wedding-video-2">*/}
-            {/*        <button>Video 2</button>*/}
-            {/*    </Link>*/}
-            {/*</div>*/}
+            <div className="beny_tm_contact" id="contact">
+              <div className="container">
+               <div className="contact_inner">
+                  <div
+                    className="left"
+                    data-aos="fade-right"
+                    data-aos-duration="1200"
+                  >
+                    <div className="beny_tm_title_holder">
+                      <span>Contact</span>
+                      <h2>Let's discuss your project</h2>
+                    </div>
+                    <div className="short_list">
+                      <Address />
+                    </div>
+                  </div>
+
+                  <div
+                    className="right"
+                    data-aos="fade-right"
+                    data-aos-duration="1200"
+                    data-aos-delay="150"
+                  >
+                    <div className="title">
+                      <p>
+                        I'm always open to discussing product
+                        <br />
+                        <span>design work or partnerships.</span>
+                      </p>
+                    </div>
+                    <div className="fields">
+                      <Contact />
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+      {/*      WEDDING LOL
+            <div>
+                <Link to="Portfolio/Wedding-video-1">
+                    <button>Video 1</button>
+                </Link>
+            </div>
+            <div>
+                <Link to="Portfolio/Wedding-video-2">
+                    <button>Video 2</button>
+                </Link>
+            </div>*/}
+
+
+
+
             {/* COPYRIGHT */}
             <div className="beny_tm_copyright">
                 <div className="container">

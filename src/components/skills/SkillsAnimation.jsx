@@ -3,6 +3,11 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 const educationContent = [
   {
+    passingYear: "2024",
+    degree: "Google Project Management: Professional Certificate",
+    instituteName: "In Progress",
+  },
+  {
     passingYear: "2021",
     degree: "Professional Diploma in UX Design",
     instituteName: "Glasgow Caledonian University - UK",
@@ -86,18 +91,37 @@ const awardContent = [
 ];
 const experienceContent = [
   {
+    designation: "Project Director",
+    jobType: "Full Time | Flexible",
+    year: "Jul 2022 - Present",
+    compnayName: "Ogoul Technology",
+    descriptions: "I am focused on overseeing project execution, ensuring timely and budget-friendly completion with defined objectives. Managing multiple projects simultaneously, I have a broad responsibility for the overall project portfolio.\n" +
+        "\n" +
+        "Additionally, I concentrate on specific products or features within projects, serving as a liaison between stakeholders and development teams. My role involves defining product features, prioritizing backlogs, and ensuring the delivery of products aligns with user needs and business goals.",
+    animationDealy: "",
+  },
+  {
     designation: "UX Director",
     jobType: "Full Time | Flexible",
-    year: "2021 - Now",
+    year: "Jul 2022 - Jul 2023",
     compnayName: "Ogoul Technology",
     descriptions:
         "Promoted to lead the UX Department towards improving the user experience, the feel and the look of all the products under the company. I was handling many products simultaneously from usability testing to planning and designing and reviewing all the work done by the UX Designers. As a management member, I worked with all the departments that helped me improve the quality of my teams work. My Engineering background allowed me to help the developers turn the designs into real screens.",
     animationDealy: "",
   },
   {
+    designation: "UI/UX Designer",
+    jobType: "Full Time | Flexible",
+    year: "Jul 2021 - Jul 2022",
+    compnayName: "Ogoul Technology",
+    descriptions:
+        "I design and develop services of all sizes, specializing in creating stylish, modern websites and mobile apps. Angular, React JS, React native, Flutter",
+    animationDealy: "",
+  },
+  {
     designation: "Software Engineer",
     jobType: "Full Time | Flexible",
-    year: "2020 - 2021",
+    year: "Jan 2020 - Jul 2022",
     compnayName: "Ogoul Technology",
     descriptions:
       "I design and develop services of all sizes, specializing in creating stylish, modern websites and mobile apps. Angular, React JS, React native, Flutter",
@@ -106,7 +130,7 @@ const experienceContent = [
   {
     designation: "Exhibition Coordinator",
     jobType: "Full Time | Office",
-    year: "2018 - 2019",
+    year: "Oct 2018 - Jan 2020",
     compnayName: "The Planners - Kahramaa Awareness Park",
     descriptions:
       "I improved the technological park services and developed digital interactive games along giving workshops.",
@@ -133,7 +157,7 @@ const experienceContent = [
   {
     designation: "Graphic Designer",
     jobType: "Part Time | Flexible",
-    year: "2016 - 2017",
+    year: "Sep 2016 - Aug 2017",
     compnayName: "Qatar University",
     descriptions:
         "Daily posters and designs made for several departments mainly to market information of events and workshops within campus.",

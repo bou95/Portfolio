@@ -40,12 +40,14 @@ const SliderAnimation = () => {
               data-aos-delay="50"
             >
               <TextLoop>
+                <p className="loop-text lead">Project Director</p>
+                <p className="loop-text lead">Product Owner</p>
                 <p className="loop-text lead">Web/Mobile Developer</p>
                 <p className="loop-text lead">UI/UX Designer</p>
                 <p className="loop-text lead">Game Designer</p>
                 <p className="loop-text lead">Artist</p>
               </TextLoop>
-              <br /> <span>Based In Qatar.</span>
+              <br/> <span>Based In Qatar.</span>
             </h1>
             <p
               className="text"
@@ -53,7 +55,7 @@ const SliderAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              I am a full time developer who craves to express my love of art through my work.
+              I am a full time project director who craves to express my love of art through my work.
               I am motivated to enhance people's quality of life through user-friendly aesthetic software.
 
               {/*I'm developer focused on crafting user‑friendly experiences, I am*/}

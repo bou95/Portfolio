@@ -32,14 +32,13 @@ const AboutAnimation = () => {
           <div className="short">
             <h3>I'm Bouthaina Benkablia</h3>
             <h5>
-              A creative <span className="theme-color"> UX Director </span>
+              A creative <span className="theme-color"> Product Owner </span> & <span className="theme-color"> Project Director </span>
+              <br/>
               based in <span className="theme-color">Qatar</span>
             </h5>
             <p>
-              You can call me Bou! And hey I'm a developer and a designer
-              yet I honestly care most about the idea of the project and the purpose it serves.
-              I really care about how and why I do what I do. This is why I find UX design fulfilling.
-              I also enjoy coding and seeing an idea come to life. Inspiring ideas are my fuel!
+
+              I am a results-oriented Project Director, adept at seamlessly integrating UX design and technical expertise. My strength lies in bridging the gap between user-centric design and technical implementation to create innovative and user-friendly products, demonstrating a keen eye for detail in the dynamic landscape of technology and user experience.
             </p>
           </div>
           <div className="extra">
@@ -58,12 +57,12 @@ const AboutAnimation = () => {
                 </li>
                 <li>
                   <p>
-                    <span>Age :</span> 28 Years
+                    <span>Age :</span> 29 Years
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Phone :</span> +97455029091
+                    <span>Phone :</span> (+974) 55029091
                   </p>
                 </li>
                 <li>
@@ -76,21 +75,27 @@ const AboutAnimation = () => {
                     <span>Email :</span> be.benkablia@gmail.com
                   </p>
                 </li>
-                <li>
-                  <p>
-                    <span>Freelance :</span> Available
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Languages :</span> AR, EN, FR
-                  </p>
-                </li>
+
+                  <li className={"full"}>
+                    <p>
+                      <span>Languages :</span> English, Arabic, French
+                    </p>
+                  </li>
+
+
               </ul>
+              {/*<ul>*/}
+              {/*  <li>*/}
+              {/*    <p>*/}
+              {/*      <span>Languages :</span> Arabic, English, French*/}
+              {/*    </p>*/}
+              {/*  </li>*/}
+              {/*</ul>*/}
+
             </div>
             {/* End list */}
             <div className="beny_tm_button color-outline">
-              <a href="https://drive.google.com/file/d/1nuUW6l68A2KV1p-I_1jxwPY54KwkKvKG/view?usp=sharing" download>
+            <a href="https://drive.google.com/file/d/1nuUW6l68A2KV1p-I_1jxwPY54KwkKvKG/view?usp=sharing" download>
                 <span className="wrapper">
                   <span className="first">Download CV</span>
                   <span className="second">Download CV</span>
