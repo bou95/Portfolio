@@ -2,7 +2,7 @@ import React from "react";
 import ReactPlayer from 'react-player'
 // import myVideo from '../assets/videos/1.mp4'
 
-const Video1 = () => {
+const Video2 = () => {
     document.body.classList.add("light");
     return (
         <div style={{backgroundColor:'black', height: "100vh"}}>
@@ -13,6 +13,6 @@ const Video1 = () => {
     );
 };
 
-export default Video1;
+export default Video2;
 
 

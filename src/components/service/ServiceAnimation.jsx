@@ -6,6 +6,7 @@ import svg3 from "../../assets/img/svg/3.svg"
 import svg4 from "../../assets/img/svg/4.svg"
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {Link} from "react-router-dom";
 
 Modal.setAppElement("#root");
 
@@ -82,9 +83,10 @@ const ServiceAnimation = () => {
         <div className="service_list">
             <ul>
                 <li>
+                    <Link to="/Portfolio/ux-projects">
                     <div
                         className="list_inner"
-                        onClick={toggleModalOne}
+                        // onClick={toggleModalOne}
                         data-aos="fade-right"
                         data-aos-duration="1200"
                     >
@@ -92,11 +94,13 @@ const ServiceAnimation = () => {
                         <div className="service_title">
                             <h3>UI/UX Design & Research</h3>
                         </div>
-                        <div className="learn_more">
-                            Learn More<span></span>
+
+                        <div className="learn_more">Learn more
+                            <span></span>
                         </div>
                     </div>
 
+</Link>
                     {/* Start Modal Motion Graphy */}
                     <Modal
                         isOpen={isOpen}
@@ -289,7 +293,7 @@ const ServiceAnimation = () => {
                                                 className="main"
                                                 style={{
                                                     backgroundImage: `url(${
-                                                        process.env.PUBLIC_URL + "img/service/3.jpg"
+                                                        process.env.PUBLIC_URL + "img/service/3wall.jpg"
                                                     })`,
                                                 }}
                                             ></div>

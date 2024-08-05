@@ -307,7 +307,7 @@ const BlogAnimation = () => {
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/news/3.jpg"
+                      process.env.PUBLIC_URL + "img/news/3wall.jpg"
                     })`,
                   }}
                 ></div>
@@ -346,7 +346,7 @@ const BlogAnimation = () => {
                           className="main"
                           style={{
                             backgroundImage: `url(${
-                              process.env.PUBLIC_URL + "img/news/3.jpg"
+                              process.env.PUBLIC_URL + "img/news/3wall.jpg"
                             })`,
                           }}
                         ></div>

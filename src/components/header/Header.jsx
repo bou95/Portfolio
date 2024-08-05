@@ -86,7 +86,7 @@ const Header = () => {
                 {/*  </a>*/}
                 {/*</li>*/}
                 <li>
-                  <a href="https://drive.google.com/file/d/1nuUW6l68A2KV1p-I_1jxwPY54KwkKvKG/view?usp=sharing">
+                  <a href="https://drive.google.com/file/d/1nDZCrDzFouTaTdfGggDBWTeo0Zl5Tl7a/view?usp=drive_link">
                     <span className="wrapper">
                       <span className="first">Download my CV</span>
                       <span className="second">Download my CV</span>

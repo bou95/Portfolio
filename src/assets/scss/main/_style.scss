@@ -37,8 +37,12 @@ body {
   word-wrap: break-word;
   font-weight: 400;
   background-color: #fff;
-  color: #6e6e6e;
+  color: #653f3f;
 }
+.marginYo {
+  margin-right: 150px;
+}
+
 body::-webkit-scrollbar {
   width: 11px;
 }
@@ -732,6 +736,7 @@ body.dark .loader_line:after {
   z-index: 5;
 }
 .beny_tm_hero .background {
+  background-color: #f3dcdc;
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -959,12 +964,29 @@ body.dark .loader_line:after {
   background-color: #f9f9fc;
   padding: 120px 0px;
 }
+
+.beny_tm_title_holder-portfolio {
+  //width: 100%;
+  //max-width: 680px;
+  //height: auto;
+  //clear: both;
+  //float: left;
+}
 .beny_tm_title_holder {
   width: 100%;
   max-width: 680px;
   height: auto;
   clear: both;
   float: left;
+}
+
+.beny_tm_title_holder-portfolio span {
+  display: inline-block;
+  position: relative;
+  color: #f52225;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 12px;
 }
 .beny_tm_title_holder span {
   display: inline-block;
@@ -973,6 +995,18 @@ body.dark .loader_line:after {
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 12px;
+}
+
+.beny_tm_title_holder-portfolio span:before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #f52225;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 100%;
+  margin-left: 10px;
 }
 .beny_tm_title_holder span:before {
   position: absolute;
@@ -985,12 +1019,51 @@ body.dark .loader_line:after {
   left: 100%;
   margin-left: 10px;
 }
+
+.beny_tm_title_holder-portfolio h2 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 15px;
+}
 .beny_tm_title_holder h2 {
   font-size: 55px;
   font-weight: 700;
   color: #0f172a;
   margin-bottom: 15px;
 }
+
+
+//SNAPCHOTS//
+
+.seezitt-scrollmenu {
+  background-color: #d3d3d340;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.seezitt-scrollmenu-div {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.seezitt-scrollmenu-div:hover {
+  background-color: #d3d3d3;
+}
+
+.seezitt-img {
+  width: 10rem;
+  justify-content: flex-start;
+}
+
+.seezitt-img-web {
+  width: 15rem;
+}
+
+//
 .beny_tm_about .about_inner {
   width: 100%;
   height: auto;
@@ -2240,11 +2313,11 @@ body.modal {
   float: left;
   margin-bottom: 15px;
 }
-// .beny_tm_modalbox_news .main_content .descriptions .bigger {
-//   color: #888;
-//   font-size: 20px;
-//   margin-bottom: 31px;
-// }
+ .beny_tm_modalbox_news .main_content .descriptions .bigger {
+   color: #888;
+   font-size: 20px;
+   margin-bottom: 31px;
+ }
 .beny_tm_modalbox_news .main_content .descriptions p {
   margin-bottom: 22px;
 }

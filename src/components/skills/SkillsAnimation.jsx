@@ -93,7 +93,7 @@ const experienceContent = [
   {
     designation: "Project Director",
     jobType: "Full Time | Flexible",
-    year: "Jul 2022 - Present",
+    year: "Jul 2023 - Present",
     compnayName: "Ogoul Technology",
     descriptions: "I am focused on overseeing project execution, ensuring timely and budget-friendly completion with defined objectives. Managing multiple projects simultaneously, I have a broad responsibility for the overall project portfolio.\n" +
         "\n" +
@@ -115,7 +115,16 @@ const experienceContent = [
     year: "Jul 2021 - Jul 2022",
     compnayName: "Ogoul Technology",
     descriptions:
-        "I design and develop services of all sizes, specializing in creating stylish, modern websites and mobile apps. Angular, React JS, React native, Flutter",
+        "I designed services of all sizes, specializing in creating stylish, modern websites and mobile apps. From Competitive Analysis, to Usability Testing to Prototyping and Wireframing.",
+    animationDealy: "",
+  },
+  {
+    designation: "Mobile Developer",
+    jobType: "Part Time | Flexible",
+    year: "2022",
+    compnayName: "At-Home-Doc",
+    descriptions:
+        "React Native Developer. Received UI Screens from the UI/UX Designer and turned it into a React Native App that runs on both iOS and Android.",
     animationDealy: "",
   },
   {
@@ -124,7 +133,7 @@ const experienceContent = [
     year: "Jan 2020 - Jul 2022",
     compnayName: "Ogoul Technology",
     descriptions:
-      "I design and develop services of all sizes, specializing in creating stylish, modern websites and mobile apps. Angular, React JS, React native, Flutter",
+      "I design and develop services of all sizes, specializing in creating stylish, modern websites and mobile apps. Angular, React JS, React native, Flutter.",
     animationDealy: "",
   },
   {

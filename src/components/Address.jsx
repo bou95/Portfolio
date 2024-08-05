@@ -10,16 +10,10 @@ const Address = () => {
             <img className="svg" src={svg1} alt=""/>
             <a href="Tel: 55029091">+974 5502 9091</a>
         </li>
-
-
         <li>
             <img className="svg" src={svg2} alt=""/>
-            <span>
-          <a href="mailto:be.benkablia@gmail.com">be.benkablia@gmail.com</a>
-        </span>
+            <span><a href="mailto:be.benkablia@gmail.com">be.benkablia@gmail.com</a></span>
         </li>
-        {/* End li */}
-
         <li>
             <img className="svg" src={svg3} alt=""/>
             <span>

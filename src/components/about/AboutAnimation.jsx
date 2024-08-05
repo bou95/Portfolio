@@ -14,9 +14,6 @@ const AboutAnimation = () => {
               data-aos="fade-right"
               data-aos-duration="1200"
               style={{
-                // backgroundImage: `url(${
-                //     process.env.PUBLIC_URL + "img/about/aboutME.png"
-                // })`,
                 backgroundImage: `url(${
                    me
                 })`,
@@ -32,7 +29,7 @@ const AboutAnimation = () => {
           <div className="short">
             <h3>I'm Bouthaina Benkablia</h3>
             <h5>
-              A creative <span className="theme-color"> Product Owner </span> & <span className="theme-color"> Project Director </span>
+              A <span className="theme-color"> Product Owner </span> & <span className="theme-color"> Project Director </span>
               <br/>
               based in <span className="theme-color">Qatar</span>
             </h5>
@@ -95,7 +92,7 @@ const AboutAnimation = () => {
             </div>
             {/* End list */}
             <div className="beny_tm_button color-outline">
-            <a href="https://drive.google.com/file/d/1nuUW6l68A2KV1p-I_1jxwPY54KwkKvKG/view?usp=sharing" download>
+            <a href="https://drive.google.com/file/d/1nDZCrDzFouTaTdfGggDBWTeo0Zl5Tl7a/view?usp=drive_link" download>
                 <span className="wrapper">
                   <span className="first">Download CV</span>
                   <span className="second">Download CV</span>

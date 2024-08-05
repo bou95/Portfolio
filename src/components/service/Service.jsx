@@ -261,7 +261,7 @@ const Service = () => {
                         className="main"
                         style={{
                           backgroundImage: `url(${
-                            process.env.PUBLIC_URL + "img/service/3.jpg"
+                            process.env.PUBLIC_URL + "img/service/3wall.jpg"
                           })`,
                         }}
                       ></div>

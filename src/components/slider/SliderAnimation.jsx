@@ -2,6 +2,8 @@ import React from "react";
 import Social from "../Social";
 import SocialTwo from "../SocialTwo";
 import TextLoop from "react-text-loop";
+import wallpaper from "../../../src/assets/img/slider/6.png"
+
 
 const SliderAnimation = () => {
   return (
@@ -12,26 +14,26 @@ const SliderAnimation = () => {
           className="image"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/3.jpg"
+                wallpaper
             })`,
           }}
         ></div>
         <div className="overlay"></div>
       </div>
-      {/* End bg */}
+       {/*End bg */}
 
       <div className="go-to go-to-next">
         <a href="#about">
           <span></span>
         </a>
       </div>
-      {/* End animated goto button */}
+       {/*End animated goto button */}
 
       <div className="container">
         <div className="content">
           <div className="content_inner">
             <h3 className="name" data-aos="fade-up" data-aos-duration="1200">
-              Hi! I'm Bouthaina
+              I'm a
             </h3>
             <h1
               className="job"
@@ -50,17 +52,12 @@ const SliderAnimation = () => {
               <br/> <span>Based In Qatar.</span>
             </h1>
             <p
-              className="text"
+              className="text marginYo"
               data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              I am a full time project director who craves to express my love of art through my work.
-              I am motivated to enhance people's quality of life through user-friendly aesthetic software.
-
-              {/*I'm developer focused on crafting user‑friendly experiences, I am*/}
-              {/*passionate about building excellent software that improves the*/}
-              {/*lives of those around me.*/}
+              An innovative maestro seamlessly blending design finesse with coding wizardry, crafting digital experiences that captivate and elevate.
             </p>
             {/*<div*/}
             {/*  className="mobile_social"*/}
@@ -78,7 +75,7 @@ const SliderAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              <a className="anchor" href="https://drive.google.com/file/d/1nuUW6l68A2KV1p-I_1jxwPY54KwkKvKG/view?usp=sharing">
+              <a className="anchor" href="https://drive.google.com/file/d/1nDZCrDzFouTaTdfGggDBWTeo0Zl5Tl7a/view?usp=drive_link">
                 <span className="wrapper">
                   <span className="first">Download CV</span>
                   <span className="second">Download CV</span>
