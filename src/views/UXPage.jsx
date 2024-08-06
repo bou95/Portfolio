@@ -300,7 +300,7 @@ const UXPage = () => {
                             This projects contained A Mobile App, a WebApp, a Website and an Admin Panel.
                         </p>
                         <br/>
-                        <h5>Mobile Snapchots</h5>
+                        <h5>Mobile Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu">
                             <div>
@@ -331,16 +331,17 @@ const UXPage = () => {
                         <br/>
                         <h5>Web Snapchots</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '300px'}}>
                                 {webimages.map((src, index) => (
                                     <img
                                         src={src}
                                         onClick={() => openImageViewer2(index)}
-                                        width="200"
+                                        width="400"
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen2 && (
@@ -368,7 +369,7 @@ const UXPage = () => {
                             contained a Mobile and a Web App.
                         </p>
                         <br/>
-                        <h5>Mobile Snapchots</h5>
+                        <h5>Mobile Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu">
                             <div>
@@ -397,18 +398,19 @@ const UXPage = () => {
                             </div>
                         </div>
                         <br/>
-                        <h5>Web Snapchots</h5>
+                        <h5>Web Images</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top" style={{height: '300px'}}>
+                            <div className="align-top" style={{height: '300px'}}>
                                 {ktwebimages.map((src, index) => (
                                     <img
                                         src={src}
                                         onClick={() => openImageViewer4(index)}
-                                        width="200"
+                                        width="400"
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen4 && (
@@ -434,7 +436,7 @@ const UXPage = () => {
                             accessing it all with one account.
                         </p>
                         <br/>
-                        <h5>Mobile Snapchots</h5>
+                        <h5>Mobile Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu">
                             <div>
@@ -465,16 +467,17 @@ const UXPage = () => {
                         <br/>
                         <h5>Web Images</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top" style={{height: '300px'}}>
+                            <div className="align-top" style={{height: '300px'}}>
                                 {wctwebimages.map((src, index) => (
                                     <img
                                         src={src}
                                         onClick={() => openImageViewer6(index)}
-                                        width="200"
+                                        width="400"
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen6 && (
@@ -502,16 +505,17 @@ const UXPage = () => {
                         <br/>
                         <h5>Web Images</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top" style={{height: '300px'}}>
+                            <div className="align-top" style={{height: '300px'}}>
                                 {poshdubbingimages.map((src, index) => (
                                     <img
                                         src={src}
                                         onClick={() => openImageViewer7(index)}
-                                        width="200"
+                                        width="400"
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen7 && (
@@ -539,16 +543,17 @@ const UXPage = () => {
                         <br/>
                         <h5>Web Images</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top" style={{height: '300px'}}>
+                            <div className="align-top" style={{height: '300px'}}>
                                 {poshdetectimages.map((src, index) => (
                                     <img
                                         src={src}
                                         onClick={() => openImageViewer8(index)}
-                                        width="200"
+                                        width="400"
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen8 && (
@@ -652,16 +657,17 @@ const UXPage = () => {
                         <br/>
                         <h5>Web Snapchots</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '300px'}}>
                                 {ogoultutorimages.map((src, index) => (
                                     <img
                                         src={src}
                                         onClick={() => openImageViewer11(index)}
-                                        width="200"
+                                        width="400"
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen11 && (
