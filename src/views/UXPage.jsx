@@ -463,7 +463,7 @@ const UXPage = () => {
                             </div>
                         </div>
                         <br/>
-                        <h5>Web Snapchots</h5>
+                        <h5>Web Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu">
                             <div>
@@ -500,7 +500,7 @@ const UXPage = () => {
                             dubbing videos in more than 12 languages.
                         </p>
                         <br/>
-                        <h5>Web Snapchots</h5>
+                        <h5>Web Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu">
                             <div>
@@ -537,7 +537,7 @@ const UXPage = () => {
                             an option to directly upload documents to detect harmful content and manage it.
                         </p>
                         <br/>
-                        <h5>Web Snapchots</h5>
+                        <h5>Web Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu">
                             <div>
@@ -573,7 +573,7 @@ const UXPage = () => {
                             images, voice recordings, documents. This product also provides API services.
                         </p>
                         <br/>
-                        <h5>Mobile Snapchots</h5>
+                        <h5>Mobile Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu">
                             <div>
@@ -611,7 +611,7 @@ const UXPage = () => {
                             with options for hangouts, dates and fun activities to explore nearby.
                         </p>
                         <br/>
-                        <h5>Mobile Snapchots</h5>
+                        <h5>Mobile Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu">
                             <div>
@@ -644,7 +644,10 @@ const UXPage = () => {
                         <span>UX Projects</span>
                         <h2>OgoulTutor</h2>
                         <p>
-                            OgoulTutor is a web-based platform that enables online teaching sessions by professional tutors. With this online tutoring software, both tutors and students worldwide can connect for short-term learning needs. OgoulTutor provides a search engine and an intuitive classroom module to facilitate insightful learning.
+                            OgoulTutor is a web-based platform that enables online teaching sessions by professional
+                            tutors. With this online tutoring software, both tutors and students worldwide can connect
+                            for short-term learning needs. OgoulTutor provides a search engine and an intuitive
+                            classroom module to facilitate insightful learning.
                         </p>
                         <br/>
                         <h5>Web Snapchots</h5>
@@ -676,7 +679,24 @@ const UXPage = () => {
                             </div>
                         </div>
                         <br/><br/><br/>
-
+                        <span>UX Projects</span>
+                        <h2>OgoulEMS</h2>
+                        <p>
+                            Images To Be Added Soon...
+                        </p>
+                        <br/><br/><br/>
+                        <span>UX Projects</span>
+                        <h2>Mizdah</h2>
+                        <p>
+                            Images To Be Added Soon...
+                        </p>
+                        <br/><br/><br/>
+                        <span>UX Projects</span>
+                        <h2>Qatar Airways Case Study</h2>
+                        <p>
+                            Images To Be Added Soon...
+                        </p>
+                        <br/><br/><br/>
                     </div>
                 </div>
             </div>
