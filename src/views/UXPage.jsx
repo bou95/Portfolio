@@ -113,6 +113,46 @@ import img93 from "../assets/img/ogoultutor/13.jpg";
 import { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
 
+//OGOULEMS
+import img94 from "../assets/img/ogoulems/1.jpg";
+import img95 from "../assets/img/ogoulems/2.jpg";
+import img96 from "../assets/img/ogoulems/3.jpg";
+import img97 from "../assets/img/ogoulems/4.jpg";
+import img98 from "../assets/img/ogoulems/5.jpg";
+import img99 from "../assets/img/ogoulems/6.jpg";
+import img100 from "../assets/img/ogoulems/7.jpg";
+import img101 from "../assets/img/ogoulems/8.jpg";
+import img102 from "../assets/img/ogoulems/9.jpg";
+import img103 from "../assets/img/ogoulems/10.jpg";
+import img104 from "../assets/img/ogoulems/11.jpg";
+import img105 from "../assets/img/ogoulems/12.jpg";
+import img106 from "../assets/img/ogoulems/13.jpg";
+import img107 from "../assets/img/ogoulems/14.jpg";
+import img108 from "../assets/img/ogoulems/15.jpg";
+import img109 from "../assets/img/ogoulems/16.jpg";
+import img110 from "../assets/img/ogoulems/17.jpg";
+import img111 from "../assets/img/ogoulems/18.jpg";
+import img112 from "../assets/img/ogoulems/19.jpg";
+import img113 from "../assets/img/ogoulems/web/1.png";
+import img114 from "../assets/img/ogoulems/web/2.png";
+import img115 from "../assets/img/ogoulems/web/3.png";
+import img116 from "../assets/img/ogoulems/web/4.png";
+import img117 from "../assets/img/ogoulems/web/5.png";
+import img118 from "../assets/img/ogoulems/web/6.png";
+import img119 from "../assets/img/ogoulems/web/7.png";
+import img120 from "../assets/img/ogoulems/web/8.png";
+import img121 from "../assets/img/ogoulems/web/9.png";
+import img122 from "../assets/img/ogoulems/web/10.png";
+import img123 from "../assets/img/ogoulems/web/11.png";
+import img124 from "../assets/img/ogoulems/web/12.png";
+import img125 from "../assets/img/ogoulems/web/13.png";
+import img126 from "../assets/img/ogoulems/web/14.png";
+import img127 from "../assets/img/ogoulems/web/15.png";
+import img128 from "../assets/img/ogoulems/web/16.png";
+import img129 from "../assets/img/ogoulems/web/17.png";
+import img130 from "../assets/img/ogoulems/web/18.png";
+import img131 from "../assets/img/ogoulems/web/19.png";
+import img132 from "../assets/img/ogoulems/web/20.png";
 
 const UXPage = () => {
 
@@ -150,6 +190,12 @@ const UXPage = () => {
     const [currentImage11, setCurrentImage11] = useState(0);
     const [isViewerOpen11, setIsViewerOpen11] = useState(false);
 
+    const [currentImage12, setCurrentImage12] = useState(0);
+    const [isViewerOpen12, setIsViewerOpen12] = useState(false);
+
+    const [currentImage13, setCurrentImage13] = useState(0);
+    const [isViewerOpen13, setIsViewerOpen13] = useState(false);
+
     const images = [
         img1,img2,img3,img4,img5,img6,img7,img8,img9
     ];
@@ -183,6 +229,13 @@ const UXPage = () => {
     const ogoultutorimages = [
         img81,img82,img83,img84,img85,img86,img87,img88,img89,img90,img91,img92,img93
     ];
+    const emsimages = [
+        img94,img95,img96,img97,img98,img99,img100,img101,img102,img103,img104,img105,img106,img107,img108,img109,img110,img111,img112
+    ];
+
+    const emswebimages = [
+        img113,img114,img115,img116,img117,img118,img119,img120,img121,img122,img123,img124,img125,img126,img127,img128,img129,img130,img131,img132
+    ];
 
     const openImageViewer = useCallback((index) => {
         setCurrentImage(index);
@@ -192,7 +245,6 @@ const UXPage = () => {
         setCurrentImage(0);
         setIsViewerOpen(false);
     };
-
 
     const openImageViewer2 = useCallback((index) => {
         setCurrentImage2(index);
@@ -284,6 +336,24 @@ const UXPage = () => {
         setIsViewerOpen11(false);
     };
 
+    const openImageViewer12 = useCallback((index) => {
+        setCurrentImage12(index);
+        setIsViewerOpen12(true);
+    }, []);
+    const closeImageViewer12 = () => {
+        setCurrentImage12(0);
+        setIsViewerOpen12(false);
+    };
+
+    const openImageViewer13 = useCallback((index) => {
+        setCurrentImage13(index);
+        setIsViewerOpen13(true);
+    }, []);
+    const closeImageViewer13 = () => {
+        setCurrentImage13(0);
+        setIsViewerOpen13(false);
+    };
+
     //
     document.body.classList.add("light");
     return (
@@ -302,8 +372,8 @@ const UXPage = () => {
                         <br/>
                         <h5>Mobile Images</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '450px'}}>
                                 {images.map((src, index) => (
                                     <img
                                         src={src}
@@ -312,6 +382,7 @@ const UXPage = () => {
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen && (
@@ -328,8 +399,8 @@ const UXPage = () => {
                                 )}
                             </div>
                         </div>
-                        <br/>
-                        <h5>Web Snapchots</h5>
+                        <br/><br/>
+                        <h5>Web Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu align-top">
                             <div className="align-top" style={{height: '300px'}}>
@@ -371,8 +442,8 @@ const UXPage = () => {
                         <br/>
                         <h5>Mobile Images</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '450px'}}>
                                 {ktimages.map((src, index) => (
                                     <img
                                         src={src}
@@ -381,6 +452,7 @@ const UXPage = () => {
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen3 && (
@@ -397,7 +469,7 @@ const UXPage = () => {
                                 )}
                             </div>
                         </div>
-                        <br/>
+                        <br/><br/>
                         <h5>Web Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu align-top" style={{height: '300px'}}>
@@ -438,8 +510,8 @@ const UXPage = () => {
                         <br/>
                         <h5>Mobile Images</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '450px'}}>
                                 {wctimages.map((src, index) => (
                                     <img
                                         src={src}
@@ -448,6 +520,7 @@ const UXPage = () => {
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen5 && (
@@ -464,7 +537,7 @@ const UXPage = () => {
                                 )}
                             </div>
                         </div>
-                        <br/>
+                        <br/><br/>
                         <h5>Web Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu align-top" style={{height: '300px'}}>
@@ -580,8 +653,8 @@ const UXPage = () => {
                         <br/>
                         <h5>Mobile Images</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '450px'}}>
                                 {poshtranslateimages.map((src, index) => (
                                     <img
                                         src={src}
@@ -590,6 +663,7 @@ const UXPage = () => {
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen10 && (
@@ -606,7 +680,6 @@ const UXPage = () => {
                                 )}
                             </div>
                         </div>
-
                         <br/><br/><br/>
                         <span>UX Projects</span>
                         <h2>Jambak</h2>
@@ -618,8 +691,8 @@ const UXPage = () => {
                         <br/>
                         <h5>Mobile Images</h5>
                         <br/>
-                        <div className="seezitt-scrollmenu">
-                            <div>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '450px'}}>
                                 {jambakimages.map((src, index) => (
                                     <img
                                         src={src}
@@ -628,6 +701,7 @@ const UXPage = () => {
                                         key={index}
                                         style={{margin: "7px"}}
                                         alt=""
+                                        className={'align-top'}
                                     />
                                 ))}
                                 {isViewerOpen9 && (
@@ -644,7 +718,6 @@ const UXPage = () => {
                                 )}
                             </div>
                         </div>
-
                         <br/><br/><br/>
                         <span>UX Projects</span>
                         <h2>OgoulTutor</h2>
@@ -655,7 +728,7 @@ const UXPage = () => {
                             classroom module to facilitate insightful learning.
                         </p>
                         <br/>
-                        <h5>Web Snapchots</h5>
+                        <h5>Web Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu align-top">
                             <div className="align-top" style={{height: '300px'}}>
@@ -688,21 +761,71 @@ const UXPage = () => {
                         <span>UX Projects</span>
                         <h2>OgoulEMS</h2>
                         <p>
-                            Images To Be Added Soon...
+                            xxx
                         </p>
+                        <br/>
+                        <h5>Mobile Images</h5>
+                        <br/>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '450px'}}>
+                                {emsimages.map((src, index) => (
+                                    <img
+                                        src={src}
+                                        onClick={() => openImageViewer12(index)}
+                                        width="200"
+                                        key={index}
+                                        style={{margin: "7px"}}
+                                        alt=""
+                                        className={'align-top'}
+                                    />
+                                ))}
+                                {isViewerOpen12 && (
+                                    <ImageViewer
+                                        src={emsimages}
+                                        currentIndex={currentImage12}
+                                        onClose={closeImageViewer12}
+                                        disableScroll={false}
+                                        backgroundStyle={{
+                                            backgroundColor: "rgba(0,0,0,0.9)"
+                                        }}
+                                        closeOnClickOutside={true}
+                                    />
+                                )}
+                            </div>
+                        </div>
+                        <br/><br/>
+                        <h5>Web Images</h5>
+                        <br/>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '300px'}}>
+                                {emswebimages.map((src, index) => (
+                                    <img
+                                        src={src}
+                                        onClick={() => openImageViewer13(index)}
+                                        width="400"
+                                        key={index}
+                                        style={{margin: "7px"}}
+                                        alt=""
+                                        className={'align-top'}
+                                    />
+                                ))}
+                                {isViewerOpen13 && (
+                                    <ImageViewer
+                                        src={emswebimages}
+                                        currentIndex={currentImage13}
+                                        onClose={closeImageViewer13}
+                                        disableScroll={false}
+                                        backgroundStyle={{
+                                            backgroundColor: "rgba(0,0,0,0.9)"
+                                        }}
+                                        closeOnClickOutside={true}
+                                    />
+                                )}
+                            </div>
+                        </div>
                         <br/><br/><br/>
-                        <span>UX Projects</span>
-                        <h2>Mizdah</h2>
-                        <p>
-                            Images To Be Added Soon...
-                        </p>
-                        <br/><br/><br/>
-                        <span>UX Projects</span>
-                        <h2>Qatar Airways Case Study</h2>
-                        <p>
-                            Images To Be Added Soon...
-                        </p>
-                        <br/><br/><br/>
+
+
                     </div>
                 </div>
             </div>
