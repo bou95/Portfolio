@@ -440,11 +440,21 @@ const UXPage = () => {
     document.body.classList.add("light");
     return (
         <div>
-            <div className="beny_tm_about" id="about">
+            <div className="beny_tm_about">
                 <div className="container">
                     <div className="beny_tm_title_holder-portfolio">
+                        <h1>Previous UX Projects</h1>
+                        <br/>
+                        <h7>Below are some images from previous UX Projects. This page showcases random images from a list of projects I have worked on. In case you require to see Prototypes, wireframes or the research done on these projects. Please contact me.</h7>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className="container">
+                    <div className="beny_tm_title_holder-portfolio">
+                        <br/><br/>
                         <span>UX Projects</span>
-                        <h2>Seezitt</h2>
+                        <h3>Seezitt</h3>
                         <p>
                             A Social Media App. SeezItt lets you dive into creativity to capture spectacular moments and
                             share them with the world. Show your talent, share a joke, or promote your passions around
@@ -975,6 +985,7 @@ const UXPage = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };
