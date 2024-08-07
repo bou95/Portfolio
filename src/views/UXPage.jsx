@@ -210,6 +210,8 @@ import img184 from "../assets/img/mizdah/web/26.png";
 import img185 from "../assets/img/mizdah/web/27.png";
 import img186 from "../assets/img/mizdah/web/28.png";
 import img187 from "../assets/img/mizdah/web/29.png";
+import TextLoop from "react-text-loop";
+import wallpaper from "../assets/img/slider/6ux.png";
 
 
 
@@ -440,12 +442,26 @@ const UXPage = () => {
     document.body.classList.add("light");
     return (
         <div>
-            <div className="beny_tm_about">
-                <div className="container">
-                    <div className="beny_tm_title_holder-portfolio">
-                        <h1>Previous UX Projects</h1>
-                        <br/>
-                        <h7>Below are some images from previous UX Projects. This page showcases random images from a list of projects I have worked on. In case you require to see Prototypes, wireframes or the research done on these projects. Please contact me.</h7>
+            <div className={'uxHero'}>
+                <div
+                    className="uxImage"
+                    style={{
+                        backgroundImage: `url(${
+                            wallpaper
+                        })`,
+                    }}
+                ></div>
+                <div className="beny_tm_about">
+                    <div className="container">
+                        <div className="beny_tm_title_holder-portfolio">
+                            <h1>Previous UX Projects</h1>
+                            <br/>
+                            <p style={{width: '50%'}}>Below are some images from previous UX Projects. This page showcases random images from a
+                                list of projects I have worked on. In case you require to see Prototypes, wireframes or
+                                the
+                                research done on these projects. Please contact me.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

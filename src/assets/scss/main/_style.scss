@@ -636,6 +636,14 @@ body.dark .loader_line:after {
 /*	04) BENY HERO
 /*---------------------------------------------------*/
 
+.uxHero {
+  width: 100%;
+  min-height: 50vh;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
 .beny_tm_hero {
   width: 100%;
   min-height: 100vh;
@@ -743,6 +751,15 @@ body.dark .loader_line:after {
   left: 0px;
   right: 0px;
 }
+.beny_tm_hero .uxbackground {
+  background-color: #f3dcdc;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 400px;
+}
+
 .beny_tm_hero .background .image {
   position: absolute;
   top: 0px;
@@ -753,6 +770,26 @@ body.dark .loader_line:after {
   background-size: cover;
   background-position: 75% 0%;
 }
+
+.uxHero {
+  width: 100%;
+  min-height: 50vh;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.uxImage {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 75% 0%;
+}
+
 .beny_tm_hero .background .overlay {
   position: absolute;
   top: 0px;
