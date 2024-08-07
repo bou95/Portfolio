@@ -148,7 +148,7 @@ const ServiceAnimation = () => {
                 <li>
                     <div
                         className="list_inner"
-                        onClick={toggleModalTwo}
+                        // onClick={toggleModalTwo}
                         data-aos="fade-right"
                         data-aos-duration="1200"
                         data-aos-delay="100"
@@ -157,22 +157,24 @@ const ServiceAnimation = () => {
                         <div className="service_title">
                             <h3>Web Development</h3>
                         </div>
-                        <div className="learn_more">
-                            Learn More<span></span>
-                        </div>
+                        {/*<div className="learn_more">*/}
+                        {/*    Learn More<span></span>*/}
+                        {/*</div>*/}
                     </div>
 
                     {/* Start Modal Branding & Design */}
                     <Modal
                         isOpen={isOpen2}
-                        onRequestClose={toggleModalTwo}
+                        // onRequestClose={toggleModalTwo}
                         contentLabel="My dialog"
                         className="custom-modal"
                         overlayClassName="custom-overlay"
                         closeTimeoutMS={500}
                     >
                         <div className="beny_tm_modalbox_service">
-                            <button className="close-modal" onClick={toggleModalTwo}>
+                            <button className="close-modal"
+                                    // onClick={toggleModalTwo}
+                            >
                                 <img src="/img/svg/cancel.svg" alt="close icon"/>
                             </button>
                             {/* End close icon */}
@@ -255,7 +257,7 @@ const ServiceAnimation = () => {
                 <li>
                     <div
                         className="list_inner"
-                        onClick={toggleModalThree}
+                        // onClick={toggleModalThree}
                         data-aos="fade-right"
                         data-aos-duration="1200"
                         data-aos-delay="200"
@@ -272,14 +274,16 @@ const ServiceAnimation = () => {
                     {/* Start Modal Mobile App Design */}
                     <Modal
                         isOpen={isOpen3}
-                        onRequestClose={toggleModalThree}
+                        // onRequestClose={toggleModalThree}
                         contentLabel="My dialog"
                         className="custom-modal"
                         overlayClassName="custom-overlay"
                         closeTimeoutMS={500}
                     >
                         <div className="beny_tm_modalbox_service">
-                            <button className="close-modal" onClick={toggleModalThree}>
+                            <button className="close-modal"
+                                    // onClick={toggleModalThree}
+                            >
                                 <img src="/img/svg/cancel.svg" alt="close icon"/>
                             </button>
                             {/* End close icon */}
@@ -362,7 +366,7 @@ const ServiceAnimation = () => {
                 <li>
                     <div
                         className="list_inner"
-                        onClick={toggleModalFour}
+                        // onClick={toggleModalFour}
                         data-aos="fade-right"
                         data-aos-duration="1200"
                         data-aos-delay="300"
@@ -379,14 +383,16 @@ const ServiceAnimation = () => {
                     {/* Start Modal Modal Ui/Ux Consultancy */}
                     <Modal
                         isOpen={isOpen4}
-                        onRequestClose={toggleModalFour}
+                        // onRequestClose={toggleModalFour}
                         contentLabel="My dialog"
                         className="custom-modal"
                         overlayClassName="custom-overlay"
                         closeTimeoutMS={500}
                     >
                         <div className="beny_tm_modalbox_service">
-                            <button className="close-modal" onClick={toggleModalFour}>
+                            <button className="close-modal"
+                                    // onClick={toggleModalFour}
+                            >
                                 <img src="/img/svg/cancel.svg" alt="close icon"/>
                             </button>
                             {/* End close icon */}
