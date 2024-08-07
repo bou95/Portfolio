@@ -154,6 +154,65 @@ import img130 from "../assets/img/ogoulems/web/18.png";
 import img131 from "../assets/img/ogoulems/web/19.png";
 import img132 from "../assets/img/ogoulems/web/20.png";
 
+//MIZDAH
+import img133 from "../assets/img/mizdah/1.png";
+import img134 from "../assets/img/mizdah/2.png";
+import img135 from "../assets/img/mizdah/3.png";
+import img136 from "../assets/img/mizdah/4.png";
+import img137 from "../assets/img/mizdah/5.png";
+import img138 from "../assets/img/mizdah/6.png";
+import img139 from "../assets/img/mizdah/7.png";
+import img140 from "../assets/img/mizdah/8.png";
+import img141 from "../assets/img/mizdah/9.png";
+import img142 from "../assets/img/mizdah/10.png";
+import img143 from "../assets/img/mizdah/11.png";
+import img144 from "../assets/img/mizdah/12.png";
+import img145 from "../assets/img/mizdah/13.png";
+import img146 from "../assets/img/mizdah/14.png";
+import img147 from "../assets/img/mizdah/15.png";
+import img148 from "../assets/img/mizdah/16.png";
+import img149 from "../assets/img/mizdah/17.png";
+import img150 from "../assets/img/mizdah/18.png";
+import img151 from "../assets/img/mizdah/19.png";
+import img152 from "../assets/img/mizdah/20.png";
+import img153 from "../assets/img/mizdah/21.png";
+import img154 from "../assets/img/mizdah/22.png";
+import img155 from "../assets/img/mizdah/23.png";
+import img156 from "../assets/img/mizdah/web/1.png";
+import img157 from "../assets/img/mizdah/web/2.png";
+import img158 from "../assets/img/mizdah/web/3.png";
+import img159 from "../assets/img/mizdah/web/4.png";
+import img160 from "../assets/img/mizdah/web/5.png";
+import img161 from "../assets/img/mizdah/web/6.png";
+import img162 from "../assets/img/mizdah/web/7.png";
+import img163 from "../assets/img/mizdah/web/8.png";
+import img164 from "../assets/img/mizdah/web/9.png";
+import img165 from "../assets/img/mizdah/web/10.png";
+import img166 from "../assets/img/mizdah/web/11.png";
+import img167 from "../assets/img/mizdah/web/12.png";
+import img168 from "../assets/img/mizdah/web/13.png";
+import img169 from "../assets/img/mizdah/web/11.png";
+import img170 from "../assets/img/mizdah/web/12.png";
+import img171 from "../assets/img/mizdah/web/13.png";
+import img172 from "../assets/img/mizdah/web/14.png";
+import img173 from "../assets/img/mizdah/web/15.png";
+import img174 from "../assets/img/mizdah/web/16.png";
+import img175 from "../assets/img/mizdah/web/17.png";
+import img176 from "../assets/img/mizdah/web/18.png";
+import img177 from "../assets/img/mizdah/web/19.jpg";
+import img178 from "../assets/img/mizdah/web/20.png";
+import img179 from "../assets/img/mizdah/web/21.png";
+import img180 from "../assets/img/mizdah/web/22.png";
+import img181 from "../assets/img/mizdah/web/23.png";
+import img182 from "../assets/img/mizdah/web/24.png";
+import img183 from "../assets/img/mizdah/web/25.png";
+import img184 from "../assets/img/mizdah/web/26.png";
+import img185 from "../assets/img/mizdah/web/27.png";
+import img186 from "../assets/img/mizdah/web/28.png";
+import img187 from "../assets/img/mizdah/web/29.png";
+
+
+
 const UXPage = () => {
 
     //GALLERY//
@@ -196,6 +255,12 @@ const UXPage = () => {
     const [currentImage13, setCurrentImage13] = useState(0);
     const [isViewerOpen13, setIsViewerOpen13] = useState(false);
 
+    const [currentImage14, setCurrentImage14] = useState(0);
+    const [isViewerOpen14, setIsViewerOpen14] = useState(false);
+
+    const [currentImage15, setCurrentImage15] = useState(0);
+    const [isViewerOpen15, setIsViewerOpen15] = useState(false);
+
     const images = [
         img1,img2,img3,img4,img5,img6,img7,img8,img9
     ];
@@ -235,6 +300,14 @@ const UXPage = () => {
 
     const emswebimages = [
         img113,img114,img115,img116,img117,img118,img119,img120,img121,img122,img123,img124,img125,img126,img127,img128,img129,img130,img131,img132
+    ];
+
+    const mizdahimages = [
+        img133,img134,img135,img136,img137,img138,img139,img140,img141,img142,img143,img144,img145,img146,img147,img148,img149,img150,img151,img152,img153,img154,img155
+    ];
+
+    const mizdahwebimages = [
+        img156,img157,img158,img159,img160,img161,img162,img163,img164,img165,img166,img167,img168,img169,img170,img171,img172,img173,img174,img175,img176,img177,img178,img179,img180,img181,img182,img183,img184,img185,img186,img187
     ];
 
     const openImageViewer = useCallback((index) => {
@@ -352,6 +425,15 @@ const UXPage = () => {
     const closeImageViewer13 = () => {
         setCurrentImage13(0);
         setIsViewerOpen13(false);
+    };
+
+    const openImageViewer14 = useCallback((index) => {
+        setCurrentImage14(index);
+        setIsViewerOpen14(true);
+    }, []);
+    const closeImageViewer14 = () => {
+        setCurrentImage14(0);
+        setIsViewerOpen14(false);
     };
 
     //
@@ -824,8 +906,72 @@ const UXPage = () => {
                             </div>
                         </div>
                         <br/><br/><br/>
-
-
+                        <span>UX Projects</span>
+                        <h2>Mizdah</h2>
+                        <p>
+                            xxx
+                        </p>
+                        <br/>
+                        <h5>Mobile Images</h5>
+                        <br/>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '450px'}}>
+                                {mizdahimages.map((src, index) => (
+                                    <img
+                                        src={src}
+                                        onClick={() => openImageViewer14(index)}
+                                        width="200"
+                                        key={index}
+                                        style={{margin: "7px"}}
+                                        alt=""
+                                        className={'align-top'}
+                                    />
+                                ))}
+                                {isViewerOpen14 && (
+                                    <ImageViewer
+                                        src={mizdahimages}
+                                        currentIndex={currentImage14}
+                                        onClose={closeImageViewer14}
+                                        disableScroll={false}
+                                        backgroundStyle={{
+                                            backgroundColor: "rgba(0,0,0,0.9)"
+                                        }}
+                                        closeOnClickOutside={true}
+                                    />
+                                )}
+                            </div>
+                        </div>
+                        <br/><br/>
+                        <h5>Web Images</h5>
+                        <br/>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '300px'}}>
+                                {mizdahwebimages.map((src, index) => (
+                                    <img
+                                        src={src}
+                                        onClick={() => openImageViewer14(index)}
+                                        width="400"
+                                        key={index}
+                                        style={{margin: "7px"}}
+                                        alt=""
+                                        className={'align-top'}
+                                    />
+                                ))}
+                                {isViewerOpen14 && (
+                                    <ImageViewer
+                                        src={mizdahwebimages}
+                                        currentIndex={currentImage14}
+                                        onClose={closeImageViewer14}
+                                        disableScroll={false}
+                                        backgroundStyle={{
+                                            backgroundColor: "rgba(0,0,0,0.9)"
+                                        }}
+                                        closeOnClickOutside={true}
+                                    />
+                                )}
+                            </div>
+                        </div>
+                        <br/><br/><br/>
                     </div>
                 </div>
             </div>
