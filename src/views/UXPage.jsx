@@ -11,6 +11,43 @@ import img6 from "../assets/img/seezitt/6.jpg";
 import img7 from "../assets/img/seezitt/7.jpg";
 import img8 from "../assets/img/seezitt/8.jpg";
 import img9 from "../assets/img/seezitt/9.jpg";
+import img188 from "../assets/img/seezitt/10.png";
+import img189 from "../assets/img/seezitt/11.png";
+import img190 from "../assets/img/seezitt/12.png";
+import img191 from "../assets/img/seezitt/13.png";
+import img192 from "../assets/img/seezitt/14.png";
+import img193 from "../assets/img/seezitt/15.png";
+import img194 from "../assets/img/seezitt/16.png";
+import img195 from "../assets/img/seezitt/17.png";
+import img196 from "../assets/img/seezitt/18.png";
+import img197 from "../assets/img/seezitt/19.png";
+import img198 from "../assets/img/seezitt/20.png";
+import img199 from "../assets/img/seezitt/21.png";
+import img200 from "../assets/img/seezitt/22.png";
+import img201 from "../assets/img/seezitt/23.png";
+import img202 from "../assets/img/seezitt/24.png";
+import img203 from "../assets/img/seezitt/25.png";
+import img204 from "../assets/img/seezitt/26.png";
+import img205 from "../assets/img/seezitt/27.png";
+import img206 from "../assets/img/seezitt/28.png";
+import img207 from "../assets/img/seezitt/29.png";
+import img208 from "../assets/img/seezitt/30.png";
+import img209 from "../assets/img/seezitt/31.png";
+import img210 from "../assets/img/seezitt/46.png";
+import img211 from "../assets/img/seezitt/32.png";
+import img212 from "../assets/img/seezitt/33.png";
+import img213 from "../assets/img/seezitt/34.png";
+import img214 from "../assets/img/seezitt/35.png";
+import img215 from "../assets/img/seezitt/36.png";
+import img216 from "../assets/img/seezitt/37.png";
+import img217 from "../assets/img/seezitt/38.png";
+import img218 from "../assets/img/seezitt/39.png";
+import img219 from "../assets/img/seezitt/40.png";
+import img220 from "../assets/img/seezitt/41.png";
+import img221 from "../assets/img/seezitt/42.png";
+import img222 from "../assets/img/seezitt/43.png";
+import img223 from "../assets/img/seezitt/44.png";
+import img224 from "../assets/img/seezitt/45.png";
 import img10 from "../assets/img/seezitt/web/web1.jpg";
 import img11 from "../assets/img/seezitt/web/web2.jpg";
 import img12 from "../assets/img/seezitt/web/web3.jpg";
@@ -210,9 +247,14 @@ import img184 from "../assets/img/mizdah/web/26.png";
 import img185 from "../assets/img/mizdah/web/27.png";
 import img186 from "../assets/img/mizdah/web/28.png";
 import img187 from "../assets/img/mizdah/web/29.png";
-import TextLoop from "react-text-loop";
-import wallpaper from "../assets/img/slider/6ux.png";
 
+//QATAR AIRWAYS
+import img225 from "../assets/img/qatarAirways/Graph 1.png";
+import img226 from "../assets/img/qatarAirways/Graph 2.png";
+import img227 from "../assets/img/qatarAirways/Graph 3.png";
+
+//
+import wallpaper from "../assets/img/slider/6ux.png";
 
 
 const UXPage = () => {
@@ -264,7 +306,7 @@ const UXPage = () => {
     const [isViewerOpen15, setIsViewerOpen15] = useState(false);
 
     const images = [
-        img1,img2,img3,img4,img5,img6,img7,img8,img9
+        img1,img2,img3,img4,img5,img6,img7,img8,img9,img188,img189,img190,img191,img192,img193,img194,img195,img196,img197,img198,img199,img200,img201,img202,img203,img204,img205,img206,img207,img208,img209,img210,img211,img212,img213,img214,img215,img216,img217,img218,img219,img220,img221,img222,img223,img224
     ];
     const webimages = [
         img10,img11,img12,img13,img14,img15,img16
@@ -312,6 +354,9 @@ const UXPage = () => {
         img156,img157,img158,img159,img160,img161,img162,img163,img164,img165,img166,img167,img168,img169,img170,img171,img172,img173,img174,img175,img176,img177,img178,img179,img180,img181,img182,img183,img184,img185,img186,img187
     ];
 
+    const qatarairwaysimages = [
+        img225,img226,img227
+    ];
     const openImageViewer = useCallback((index) => {
         setCurrentImage(index);
         setIsViewerOpen(true);
@@ -438,6 +483,14 @@ const UXPage = () => {
         setIsViewerOpen14(false);
     };
 
+    const openImageViewer15 = useCallback((index) => {
+        setCurrentImage15(index);
+        setIsViewerOpen15(true);
+    }, []);
+    const closeImageViewer15 = () => {
+        setCurrentImage15(0);
+        setIsViewerOpen15(false);
+    };
     //
     document.body.classList.add("light");
     return (
@@ -869,7 +922,7 @@ const UXPage = () => {
                         <span>UX Projects</span>
                         <h2>OgoulEMS</h2>
                         <p>
-                            xxx
+                            OgoulLMS is an online educational platform that enables school operations and classroom learning online. Due to the scalability, flexibility, and convenience, this online Learning Management System delivers compelling learning experiences and results. OgoulLMS is committed to transforming classroom management strategies and execution, aiming to achieve the best learning app accessible to anyone from any part of the world.
                         </p>
                         <br/>
                         <h5>Mobile Images</h5>
@@ -935,7 +988,9 @@ const UXPage = () => {
                         <span>UX Projects</span>
                         <h2>Mizdah</h2>
                         <p>
-                            xxx
+                            A Virtual Meeting Platform for Individuals and Businesses worldwide.
+
+                            Mizdah allows you to host and participate in recurring meetings more efficiently. With Mizdah, virtual meetings are easy to schedule, less disruptive, and quick to set up, saving travel and accommodation costs along with time. Also, you can record team meetings and send large files easily. Such promising features are bound to make Mizdah your favorite video conferencing platform.
                         </p>
                         <br/>
                         <h5>Mobile Images</h5>
@@ -988,6 +1043,42 @@ const UXPage = () => {
                                         src={mizdahwebimages}
                                         currentIndex={currentImage14}
                                         onClose={closeImageViewer14}
+                                        disableScroll={false}
+                                        backgroundStyle={{
+                                            backgroundColor: "rgba(0,0,0,0.9)"
+                                        }}
+                                        closeOnClickOutside={true}
+                                    />
+                                )}
+                            </div>
+                        </div>
+                        <br/><br/><br/>
+                        <span>UX Projects</span>
+                        <h2>Qatar Airways Case Study</h2>
+                        <p>
+                            This case study focuses on the customer journey of booking flights. Starting from searching for a flight until payment.
+                        </p>
+                        <br/>
+                        <h5>Web Images</h5>
+                        <br/>
+                        <div className="seezitt-scrollmenu align-top">
+                            <div className="align-top" style={{height: '300px'}}>
+                                {qatarairwaysimages.map((src, index) => (
+                                    <img
+                                        src={src}
+                                        onClick={() => openImageViewer15(index)}
+                                        width="800"
+                                        key={index}
+                                        style={{margin: "7px"}}
+                                        alt=""
+                                        className={'align-top'}
+                                    />
+                                ))}
+                                {isViewerOpen15 && (
+                                    <ImageViewer
+                                        src={qatarairwaysimages}
+                                        currentIndex={currentImage15}
+                                        onClose={closeImageViewer15}
                                         disableScroll={false}
                                         backgroundStyle={{
                                             backgroundColor: "rgba(0,0,0,0.9)"
