@@ -1074,16 +1074,24 @@ body.dark .loader_line:after {
 //IMAGES//
 
 .align-top {
-    display: inline-block;
-    vertical-align: top;
+    //display: inline-block;
+    //vertical-align: top;
+  display: flex;
+  vertical-align: top;
 }
 
 
 .seezitt-scrollmenu {
+  //background-color: #d3d3d340;
+  //overflow: auto !important;
+  //white-space: nowrap !important;
+  //vertical-align: top !important;
   background-color: #d3d3d340;
   overflow: auto !important;
-  white-space: nowrap !important;
   vertical-align: top !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .seezitt-scrollmenu-div {

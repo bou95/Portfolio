@@ -18,7 +18,7 @@ const Routes = () => {
         <Switch>
           {/*<Route exact path="/Portfolio/wedding-video-1" component={Video1} />*/}
           {/*<Route exact path="/Portfolio/wedding-video-2" component={Video2} />*/}
-          <Route exact path="/Portfolio/ux-projects" component={UXPage} />
+          {/*<Route exact path="/ux-projects" component={UXPage} />*/}
           {/*<Route exact path="/" component={Preview} />*/}
           {/*<Route exact path="/" component={HomeLightAnimation} />*/}
           {/*<Route exact path="/bou95.github.io" component={HomeLightAnimation} />*/}
@@ -26,8 +26,11 @@ const Routes = () => {
           {/*<Route path="/home-dark-animation" component={HomeDarkAnimation} />*/}
           {/*<Route path="/home-typer-creative" component={HomeTyperCreative} />*/}
           {/*<Route path="/home-parallax-typer" component={HomeParallaxTyper} />*/}
-          {/*<Route component={NotFound} />*/}
-          <Route exact path="/Portfolio" component={HomeLightAnimation} />
+          <Route exact path="/" component={HomeLightAnimation} />
+          <Route  path="/projects" component={UXPage} />
+            <Route path="*" component={NotFound} />
+
+          {/*<Route exact path="/portfolio" component={HomeLightAnimation} />*/}
         </Switch>
       </Router>
     </>

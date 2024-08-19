@@ -83,7 +83,7 @@ const ServiceAnimation = () => {
         <div className="service_list">
             <ul>
                 <li>
-                    <Link to="/Portfolio/ux-projects">
+                    <Link to="/projects">
                     <div
                         className="list_inner"
                         // onClick={toggleModalOne}

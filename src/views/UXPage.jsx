@@ -305,6 +305,10 @@ const UXPage = () => {
     const [currentImage15, setCurrentImage15] = useState(0);
     const [isViewerOpen15, setIsViewerOpen15] = useState(false);
 
+    const [currentImage16, setCurrentImage16] = useState(0);
+    const [isViewerOpen16, setIsViewerOpen16] = useState(false);
+
+
     const images = [
         img1,img2,img3,img4,img5,img6,img7,img8,img9,img188,img189,img190,img191,img192,img193,img194,img195,img196,img197,img198,img199,img200,img201,img202,img203,img204,img205,img206,img207,img208,img209,img210,img211,img212,img213,img214,img215,img216,img217,img218,img219,img220,img221,img222,img223,img224
     ];
@@ -490,6 +494,15 @@ const UXPage = () => {
     const closeImageViewer15 = () => {
         setCurrentImage15(0);
         setIsViewerOpen15(false);
+    };
+
+    const openImageViewer16 = useCallback((index) => {
+        setCurrentImage16(index);
+        setIsViewerOpen16(true);
+    }, []);
+    const closeImageViewer16 = () => {
+        setCurrentImage16(0);
+        setIsViewerOpen16(false);
     };
     //
     document.body.classList.add("light");
@@ -1026,11 +1039,11 @@ const UXPage = () => {
                         <h5>Web Images</h5>
                         <br/>
                         <div className="seezitt-scrollmenu align-top">
-                            <div className="align-top" style={{height: '300px'}}>
+                            <div className="align-top" style={{height: '300px', maxHeight: '300px', overflowY: 'hidden'}}>
                                 {mizdahwebimages.map((src, index) => (
                                     <img
                                         src={src}
-                                        onClick={() => openImageViewer14(index)}
+                                        onClick={() => openImageViewer16(index)}
                                         width="400"
                                         key={index}
                                         style={{margin: "7px"}}
@@ -1038,11 +1051,11 @@ const UXPage = () => {
                                         className={'align-top'}
                                     />
                                 ))}
-                                {isViewerOpen14 && (
+                                {isViewerOpen16 && (
                                     <ImageViewer
                                         src={mizdahwebimages}
-                                        currentIndex={currentImage14}
-                                        onClose={closeImageViewer14}
+                                        currentIndex={currentImage16}
+                                        onClose={closeImageViewer16}
                                         disableScroll={false}
                                         backgroundStyle={{
                                             backgroundColor: "rgba(0,0,0,0.9)"
